@@ -1,4 +1,4 @@
-name: environment
+name: tudat-docs
 channels:
   - conda-forge
 dependencies:

@@ -257,7 +257,7 @@ Apart from the state history, you can specify certain dependent variables to be 
 Create propagator settings
 --------------------------
 
-We have defined all the ingredients for the propagator settings. Let's create translational propagator settings for this case. For more detailes, also for other propagator dynamics, visit :ref:`simulation_propagator_setup`.
+We have defined all the ingredients for the propagator settings. Let's create translational propagator settings for this case. For more details, also for other propagator dynamics, visit :ref:`simulation_propagator_setup`.
 
 .. code-block:: python
       

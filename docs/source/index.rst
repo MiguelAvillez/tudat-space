@@ -71,6 +71,7 @@ Tudat has also been used extensively in research projects, a few of them are lis
 
    _src_examples/simulation_examples/simulation_ex
    _src_examples/pygmo_examples/pygmo_ex
+   _src_examples/cdl_examples/cdl_examples
 
 .. toctree::
    :maxdepth: 2

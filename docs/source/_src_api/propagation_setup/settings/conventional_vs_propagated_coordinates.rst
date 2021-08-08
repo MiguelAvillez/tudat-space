@@ -45,4 +45,4 @@ Since the conventional coordinates are used to update the environment and accele
 
 Another fact to consider, is that sometimes there may be a difference between the size of the conventional and propagates states. For instance, a Cartesian state is expressed with 6 elements, but the USM7 state with 7. This may lead to some confusion when extracting the results, so keep this in mind. In the next section, you can find the size of each propagated type used in Tudat.
 
-For a full list of propagater types in Tudat, see :ref:`translational_dynamics` and :ref:`rotational_dynamics`.
+For a full list of propagator types in Tudat, see :ref:`translational_dynamics` and :ref:`rotational_dynamics`.

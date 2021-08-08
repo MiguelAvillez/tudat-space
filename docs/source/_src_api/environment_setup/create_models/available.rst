@@ -471,7 +471,7 @@ Gravity Field Models
           .. literalinclude:: /_src_snippets/simulation/environment_setup/environment_models/spherical_harmonic_triaxial_body.cpp
              :language: cpp
 
-  The ``axis_A``, ``axis_B`` and ``axis_C`` inputs represent the dimensions of principal axis of the ellipsoid (with A>B>C), and the ``density`` represents the mass density of the body (assumed homogeneous). The maximum degree and order of the spherical harmonic coefficients that are calculated have to be provided (a true homogeneous ellipsoid has non-zero coefficients up to infinite degree), as does the reference frame in which teh coefficients are to be defined (see :class:`Spherical Harmonics Gravity`).
+  The ``axis_A``, ``axis_B`` and ``axis_C`` inputs represent the dimensions of principal axis of the ellipsoid (with A>B>C), and the ``density`` represents the mass density of the body (assumed homogeneous). The maximum degree and order of the spherical harmonic coefficients that are calculated have to be provided (a true homogeneous ellipsoid has non-zero coefficients up to infinite degree), as does the reference frame in which the coefficients are to be defined (see :class:`Spherical Harmonics Gravity`).
 
 Time-variations of the Gravity Field
 ####################################
@@ -1077,7 +1077,7 @@ Rotational Models
             .. literalinclude:: /_src_snippets/simulation/environment_setup/environment_models/gcrs_to_itrs_rotation_model.cpp
                :language: cpp
 
-  Note that for this model the original frame must be J2000 or GCRS (in the case of the former, teh frame bias between GCRS and J2000 is automatically corrected for). The target frame (*e.g.* body-fixed frame) name is ITRS. 
+  Note that for this model the original frame must be J2000 or GCRS (in the case of the former, the frame bias between GCRS and J2000 is automatically corrected for). The target frame (*e.g.* body-fixed frame) name is ITRS.
 
   The precession-nutation theory may be :literal:`iau_2000a`, :literal:`iau_2000b` or :literal:`iau_2006`, as implemented in the SOFA toolbox. Alternative options to modify the input (not shown above) include the EOP correction file, input time scale, short period UT1 and polar motion variations. 
 
