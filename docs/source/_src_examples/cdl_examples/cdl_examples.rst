@@ -2,10 +2,6 @@
 Using the CDL with TudatPy
 **************************
 
-.. warning::
-    TODO: Check if the CDL tab still disappears from the TOC on the left sometimes (e.g. when clicking on Simulations
-    with TudatPy)
-
 In this section, examples of the usage of TudatPy for mission design with the Concurrent Design Lab (CDL)
 are given and explained.
 

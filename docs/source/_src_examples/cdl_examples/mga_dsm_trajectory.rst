@@ -44,8 +44,8 @@ sequence of planets for the gravity-assists and the type of legs used. The leg t
 .. End of note
 
 Additionally, one may also specify the semi-major axis (:math:`a`) and eccentricity (:math:`e`) of the departure and insertion orbits.
-Do note that this is optional; by default it is assumed :math:`a = \infty` and :math:`e=0`, which means that the
-spacecraft departs/arrives from/at the edge of the sphere of influence of the departure/arrival planet.
+Do note that this is optional, by default it is assumed :math:`a = \infty` and :math:`e=0` (since the patched conics approximation
+is used, this means that the spacecraft departs/arrives from/at the edge of the sphere of influence of the departure/arrival planet).
 
 .. warning::
     TODO: SOI explanation necessary?
@@ -102,6 +102,8 @@ In the case of a transfer **with** DSMs one needs to define:
 
 .. warning::
     TODO: More detailed definition of free parameters?
+
+    TODO: Musegaas reference
 .. End of warning
 
 The selection of the trajectory parameters is done through the ``evaluate()`` function:
